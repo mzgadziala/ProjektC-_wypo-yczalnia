@@ -1,0 +1,175 @@
+﻿<Page x:Class="GUI.Czwarte"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GUI"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Czwarte">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="15"/>
+            <ColumnDefinition Width="230"/>
+            <ColumnDefinition Width="217"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <!--<Grid.Background>
+            <ImageBrush ImageSource="C:\Users\kubci\Desktop\Jakub Burnos\1.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>-->
+        <TextBlock Grid.Column="1" Grid.Row="1"
+                   FontWeight="SemiBold" FontFamily="Segoe UI" FontSize="25"
+                   Text="Podaj swoje dane" Grid.ColumnSpan="3"
+                   Margin="0,0,0,15"/>
+        <TextBlock Grid.Column="1" Grid.Row="2" FontSize="20" 
+                   Text="Imię" Grid.ColumnSpan="2"
+                   Margin="0,0,0,15"
+                   />
+        <TextBlock Grid.Column="1" Grid.Row="3" FontSize="20" 
+                   Text="Nazwisko" Grid.ColumnSpan="2"
+                   Margin="0,0,0,15"
+                   />
+        <TextBlock Grid.Column="1" Grid.Row="4" FontSize="20" 
+                   Text="E-mail" Grid.ColumnSpan="2"
+                   Margin="0,0,0,15"
+                   />
+        <TextBlock Grid.Column="1" Grid.Row="5" FontSize="20" 
+                   Text="Nr telefonu" Grid.ColumnSpan="2"
+                   Margin="0,0,0,15"
+                   />
+        <TextBlock Grid.Column="1" Grid.Row="6" FontSize="20" 
+                   Text="Całkowity koszt:" Grid.ColumnSpan="2"
+                   Margin="0,0,0,15"
+                   />
+        <Label
+            x:Name="Label_calkowity"
+            Grid.Column="3" Grid.Row="6"
+            Loaded="Label_calkowity_Loaded"
+            FontSize="17" FontWeight="SemiBold"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Top"
+            Margin="20,0,0,0"
+            >
+        </Label>
+        <TextBlock Grid.Column="5" Grid.Row="2" FontSize="20" 
+                   Text="Nr karty kredytowej" Grid.ColumnSpan="2"
+                   Margin="0,0,0,15"
+                   />
+        <TextBlock Grid.Column="5" Grid.Row="3" FontSize="20" 
+                   Text="Ważność karty kredytowej" Grid.ColumnSpan="2"
+                   Margin="0,0,0,15"
+                   />
+        <TextBlock Grid.Column="5" Grid.Row="4" FontSize="20" 
+                   Text="Kod zabezpieczający" Grid.ColumnSpan="2"
+                   Margin="0,0,0,15"
+                   />
+        <TextBox x:Name="textBox_imie" 
+                 Grid.Column="3" Grid.Row="2" 
+                 Grid.ColumnSpan="1"
+                 VerticalContentAlignment="Center"
+                 FontSize="20"
+                 Margin="0,0,0,15"/>
+        <TextBox x:Name="textBox_nazwisko" 
+                 Grid.Column="3" Grid.Row="3" 
+                 Grid.ColumnSpan="1"
+                 VerticalContentAlignment="Center"
+                 FontSize="20"
+                 Margin="0,0,0,15"/>
+        <TextBox x:Name="textBox_meil" 
+                 Grid.Column="3" Grid.Row="4" 
+                 Grid.ColumnSpan="1"
+                 VerticalContentAlignment="Center"
+                 FontSize="20"
+                 Margin="0,0,0,15"/>
+        <TextBox x:Name="textBox_telefon" 
+                 Grid.Column="3" Grid.Row="5" 
+                 Grid.ColumnSpan="1"
+                 VerticalContentAlignment="Center"
+                 FontSize="20"
+                 Margin="0,0,0,15"/>
+        <TextBox x:Name="textBox_karta" 
+                 Grid.Column="6" Grid.Row="2"
+                 Margin="0,0,0,15"
+                 VerticalContentAlignment="Center"
+                 FontSize="20"
+                 HorizontalAlignment="Left" Width="217"/>
+        <TextBox x:Name="textBox_waznosc" 
+                 Grid.Column="6" Grid.Row="3"
+                 Margin="0,0,0,15"
+                 VerticalContentAlignment="Center"
+                 FontSize="20"
+                 HorizontalAlignment="Left" Width="217"/>
+        <TextBox x:Name="textBox_kod" 
+                 Grid.Column="6" Grid.Row="4"
+                 Margin="0,0,0,15" 
+                 VerticalContentAlignment="Center"
+                 FontSize="20"
+                 HorizontalAlignment="Left" Width="217"/>
+        <CheckBox
+            x:Name="checkbox_lata"
+            Content=" * Oświadczam, że mam ukończone 21 lat."
+            Grid.Row="5" Grid.Column="5" Grid.ColumnSpan="2"
+            HorizontalAlignment="Left"
+            Margin="0,0,0,10"
+            VerticalAlignment="Center"
+            >
+        </CheckBox>
+        <CheckBox
+            x:Name="checkbox_prawojazdy"
+            Content=" * Oświadczam, że posiadam prawo jazdy conajmniej rok."
+            Grid.Row="6" Grid.Column="5" Grid.ColumnSpan="2"
+            HorizontalAlignment="Left"
+            Margin="0,0,0,10"
+            VerticalAlignment="Center"
+            >
+        </CheckBox>
+        <CheckBox
+            x:Name="checkbox_regulamin"
+            Content=" * Akceptuję regulamin i zgadzam się na przetwarzanie danych osobowych."
+            Grid.Row="7" Grid.Column="5" Grid.ColumnSpan="2"
+            HorizontalAlignment="Left"
+            Margin="0,0,0,10"
+            VerticalAlignment="Center"
+            >
+        </CheckBox>
+        <CheckBox
+            x:Name="checkbox_promocje"
+            Content="   Chcę otrzymywać informacje o promocjach na podanego e-meila."
+            Grid.Row="8" Grid.Column="5" Grid.ColumnSpan="2"
+            HorizontalAlignment="Left"
+            Margin="0,0,0,10"
+            VerticalAlignment="Center"
+            >
+        </CheckBox>
+        <TextBlock Grid.Column="5" Grid.Row="9" FontSize="15" 
+                   Text="* - pole obowiązkowe" Grid.ColumnSpan="3"
+                   Margin="0,0,0,15"/>
+        <Button x:Name="Button_zarezerwuj" Content="Zarezerwuj" 
+                FontWeight="SemiBold" FontFamily="Segoe UI" FontSize="20"
+                Grid.Column="2" Grid.Row="8"
+                Height="53" Width="130" VerticalAlignment="Top" 
+                Click="Button_zarezerwuj_Click" Margin="0,0,63,0" Grid.RowSpan="2" Grid.ColumnSpan="2"
+               />
+
+
+    </Grid>
+</Page>

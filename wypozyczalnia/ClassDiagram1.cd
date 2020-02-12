@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="wypozyczalnia.Dostawcze">
+    <Position X="11.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABAgAAAAAAAAEAAAiAAIAEAAAAAEAAAAEAAAAABA=</HashCode>
+      <FileName>Dostawcze.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="wszystkieDostawcze" />
+      <Field Name="dostepneDostawcze" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="wypozyczalnia.Klient">
+    <Position X="6.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QIACAAAAAKAAAACkAAAAAAAAAAAAAAAAAIAAAECAAAA=</HashCode>
+      <FileName>Klient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wypozyczalnia.ListaWypozyczen">
+    <Position X="9" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAEAAAAAIAAAAABAAEAAAAEAAAAAAA=</HashCode>
+      <FileName>ListaWypozyczen.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="listaWypozyczen" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="wypozyczalnia.Osobowe">
+    <Position X="14" Y="1.75" Width="2.25" />
+    <AssociationLine Name="wszystkieOsobowe" Type="wypozyczalnia.SamochodOsobowy">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.029" Y="0.079" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAEABAAAAAAAAAAEAAACEAIAEAAAAAEAAAAEAAAAABA=</HashCode>
+      <FileName>Osobowe.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="wszystkieOsobowe" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="wypozyczalnia.Pojazd">
+    <Position X="1.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAABAAAAAGAAECBgABAgQAAAAAAAgIAAAICAA=</HashCode>
+      <FileName>Pojazd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wypozyczalnia.SamochodDostawczy">
+    <Position X="2.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAQAAAAAAAAAIAQAACQ=</HashCode>
+      <FileName>SamochodDostawczy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wypozyczalnia.SamochodOsobowy">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAgQAAAIAAAAAAAAAAAQ=</HashCode>
+      <FileName>SamochodOsobowy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wypozyczalnia.Wypozyczenie" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>GAAACAAADAAAAAwGAAQAAggBIAAACQEAgEgEAJhAAAg=</HashCode>
+      <FileName>Wypozyczenie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="wypozyczalnia.Osoba" Collapsed="true">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAIAAAACEAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Osoba.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="wypozyczalnia.IZapisywalna" Collapsed="true">
+    <Position X="16.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAA=</HashCode>
+      <FileName>IZapisywalna.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="wypozyczalnia.Silniki" Collapsed="true">
+    <Position X="16.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAgAAAAAAQAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Pojazd.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="wypozyczalnia.Skrzynie" Collapsed="true">
+    <Position X="16.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Pojazd.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="wypozyczalnia.Miasta" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAAAAAAAAAAIAhABBAAAAAAAAAAAAAEBCAAACAAA=</HashCode>
+      <FileName>Wypozyczenie.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

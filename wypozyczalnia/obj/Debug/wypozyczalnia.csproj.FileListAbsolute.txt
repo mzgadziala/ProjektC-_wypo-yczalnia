@@ -1,0 +1,13 @@
+C:\Users\kubci\source\repos\wypozyczalnia\wypozyczalnia\bin\Debug\wypozyczalnia.exe.config
+C:\Users\kubci\source\repos\wypozyczalnia\wypozyczalnia\bin\Debug\wypozyczalnia.exe
+C:\Users\kubci\source\repos\wypozyczalnia\wypozyczalnia\bin\Debug\wypozyczalnia.pdb
+C:\Users\kubci\source\repos\wypozyczalnia\wypozyczalnia\obj\Debug\wypozyczalnia.csprojAssemblyReference.cache
+C:\Users\kubci\source\repos\wypozyczalnia\wypozyczalnia\obj\Debug\wypozyczalnia.exe
+C:\Users\kubci\source\repos\wypozyczalnia\wypozyczalnia\obj\Debug\wypozyczalnia.pdb
+C:\Users\laptop\Desktop\Projekt_C#\wypozyczalnia\bin\Debug\wypozyczalnia.exe.config
+C:\Users\laptop\Desktop\Projekt_C#\wypozyczalnia\bin\Debug\wypozyczalnia.exe
+C:\Users\laptop\Desktop\Projekt_C#\wypozyczalnia\bin\Debug\wypozyczalnia.pdb
+C:\Users\laptop\Desktop\Projekt_C#\wypozyczalnia\obj\Debug\wypozyczalnia.csprojAssemblyReference.cache
+C:\Users\laptop\Desktop\Projekt_C#\wypozyczalnia\obj\Debug\wypozyczalnia.exe
+C:\Users\laptop\Desktop\Projekt_C#\wypozyczalnia\obj\Debug\wypozyczalnia.pdb
+C:\Users\laptop\Desktop\Projekt_C#\wypozyczalnia\bin\Debug\wypozyczalnia.xml

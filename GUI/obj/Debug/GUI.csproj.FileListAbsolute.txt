@@ -1,0 +1,170 @@
+C:\C#\wypozyczalnia\GUI\bin\Debug\GUI.exe.config
+C:\C#\wypozyczalnia\GUI\bin\Debug\GUI.exe
+C:\C#\wypozyczalnia\GUI\bin\Debug\GUI.pdb
+C:\C#\wypozyczalnia\GUI\bin\Debug\wypozyczalnia.exe
+C:\C#\wypozyczalnia\GUI\bin\Debug\wypozyczalnia.pdb
+C:\C#\wypozyczalnia\GUI\bin\Debug\wypozyczalnia.exe.config
+C:\C#\wypozyczalnia\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\C#\wypozyczalnia\GUI\obj\Debug\Drugie.g.cs
+C:\C#\wypozyczalnia\GUI\obj\Debug\MainWindow.g.cs
+C:\C#\wypozyczalnia\GUI\obj\Debug\Pierwsze.g.cs
+C:\C#\wypozyczalnia\GUI\obj\Debug\App.g.cs
+C:\C#\wypozyczalnia\GUI\obj\Debug\GUI_MarkupCompile.cache
+C:\C#\wypozyczalnia\GUI\obj\Debug\GUI_MarkupCompile.lref
+C:\C#\wypozyczalnia\GUI\obj\Debug\Drugie.baml
+C:\C#\wypozyczalnia\GUI\obj\Debug\MainWindow.baml
+C:\C#\wypozyczalnia\GUI\obj\Debug\Pierwsze.baml
+C:\C#\wypozyczalnia\GUI\obj\Debug\GUI.g.resources
+C:\C#\wypozyczalnia\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\C#\wypozyczalnia\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\C#\wypozyczalnia\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\C#\wypozyczalnia\GUI\obj\Debug\GUI.exe
+C:\C#\wypozyczalnia\GUI\obj\Debug\GUI.pdb
+C:\C#\wypozyczalnia\GUI\obj\Debug\Trzecie.g.cs
+C:\C#\wypozyczalnia\GUI\obj\Debug\Trzecie.baml
+C:\C#\wypozyczalnia\GUI\obj\Debug\Czwarte.g.cs
+C:\C#\wypozyczalnia\GUI\obj\Debug\Czwarte.baml
+C:\C#\wypozyczalnia\GUI\obj\Debug\Piąte.g.cs
+C:\C#\wypozyczalnia\GUI\obj\Debug\Piąte.baml
+C:\C#\Gotowyprojekt\GUI\bin\Debug\GUI.exe.config
+C:\C#\Gotowyprojekt\GUI\bin\Debug\GUI.exe
+C:\C#\Gotowyprojekt\GUI\bin\Debug\GUI.pdb
+C:\C#\Gotowyprojekt\GUI\bin\Debug\wypozyczalnia.exe
+C:\C#\Gotowyprojekt\GUI\bin\Debug\wypozyczalnia.pdb
+C:\C#\Gotowyprojekt\GUI\bin\Debug\wypozyczalnia.exe.config
+C:\C#\Gotowyprojekt\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\C#\Gotowyprojekt\GUI\obj\Debug\Czwarte.g.cs
+C:\C#\Gotowyprojekt\GUI\obj\Debug\Drugie.g.cs
+C:\C#\Gotowyprojekt\GUI\obj\Debug\MainWindow.g.cs
+C:\C#\Gotowyprojekt\GUI\obj\Debug\Pierwsze.g.cs
+C:\C#\Gotowyprojekt\GUI\obj\Debug\Piąte.g.cs
+C:\C#\Gotowyprojekt\GUI\obj\Debug\Trzecie.g.cs
+C:\C#\Gotowyprojekt\GUI\obj\Debug\App.g.cs
+C:\C#\Gotowyprojekt\GUI\obj\Debug\GUI_MarkupCompile.cache
+C:\C#\Gotowyprojekt\GUI\obj\Debug\GUI_MarkupCompile.lref
+C:\C#\Gotowyprojekt\GUI\obj\Debug\Czwarte.baml
+C:\C#\Gotowyprojekt\GUI\obj\Debug\Drugie.baml
+C:\C#\Gotowyprojekt\GUI\obj\Debug\MainWindow.baml
+C:\C#\Gotowyprojekt\GUI\obj\Debug\Pierwsze.baml
+C:\C#\Gotowyprojekt\GUI\obj\Debug\Piąte.baml
+C:\C#\Gotowyprojekt\GUI\obj\Debug\Trzecie.baml
+C:\C#\Gotowyprojekt\GUI\obj\Debug\GUI.g.resources
+C:\C#\Gotowyprojekt\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\C#\Gotowyprojekt\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\C#\Gotowyprojekt\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\C#\Gotowyprojekt\GUI\obj\Debug\GUI.exe
+C:\C#\Gotowyprojekt\GUI\obj\Debug\GUI.pdb
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\bin\Debug\GUI.exe.config
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\bin\Debug\GUI.exe
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\bin\Debug\GUI.pdb
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\bin\Debug\wypozyczalnia.exe
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\bin\Debug\wypozyczalnia.pdb
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\bin\Debug\wypozyczalnia.exe.config
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\Czwarte.g.cs
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\Drugie.g.cs
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\MainWindow.g.cs
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\Pierwsze.g.cs
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\Piąte.g.cs
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\Trzecie.g.cs
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\App.g.cs
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\GUI_MarkupCompile.cache
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\GUI_MarkupCompile.lref
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\Czwarte.baml
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\Drugie.baml
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\MainWindow.baml
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\Pierwsze.baml
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\Piąte.baml
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\Trzecie.baml
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\GUI.g.resources
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\GUI.exe
+C:\Users\kubci\Desktop\Jakub Burnos\IiE\PO\Gotowyprojekt\GUI\obj\Debug\GUI.pdb
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\bin\Debug\GUI.exe.config
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\bin\Debug\GUI.exe
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\bin\Debug\GUI.pdb
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\bin\Debug\wypozyczalnia.exe
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\bin\Debug\wypozyczalnia.pdb
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\bin\Debug\wypozyczalnia.exe.config
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Czwarte.g.cs
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Drugie.g.cs
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\MainWindow.g.cs
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Pierwsze.g.cs
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Piąte.g.cs
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Trzecie.g.cs
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\App.g.cs
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI_MarkupCompile.cache
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI_MarkupCompile.lref
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Czwarte.baml
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Drugie.baml
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\MainWindow.baml
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Pierwsze.baml
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Piąte.baml
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Trzecie.baml
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI.g.resources
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI.exe
+C:\Users\Adriana\Downloads\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI.pdb
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\bin\Debug\GUI.exe.config
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\bin\Debug\GUI.exe
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\bin\Debug\GUI.pdb
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\bin\Debug\wypozyczalnia.exe
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\bin\Debug\wypozyczalnia.pdb
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\bin\Debug\wypozyczalnia.exe.config
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Czwarte.g.cs
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Drugie.g.cs
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\MainWindow.g.cs
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Pierwsze.g.cs
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Piąte.g.cs
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Trzecie.g.cs
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\App.g.cs
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI_MarkupCompile.cache
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI_MarkupCompile.lref
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Czwarte.baml
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Drugie.baml
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\MainWindow.baml
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Pierwsze.baml
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Piąte.baml
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\Trzecie.baml
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI.g.resources
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI.exe
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\obj\Debug\GUI.pdb
+C:\Users\laptop\Desktop\Wersja3.0\Gotowszyprojekt\Gotowyprojekt\GUI\bin\Debug\wypozyczalnia.xml
+C:\Users\laptop\Desktop\Projekt_C#\GUI\bin\Debug\GUI.exe.config
+C:\Users\laptop\Desktop\Projekt_C#\GUI\bin\Debug\GUI.exe
+C:\Users\laptop\Desktop\Projekt_C#\GUI\bin\Debug\GUI.pdb
+C:\Users\laptop\Desktop\Projekt_C#\GUI\bin\Debug\wypozyczalnia.exe
+C:\Users\laptop\Desktop\Projekt_C#\GUI\bin\Debug\wypozyczalnia.pdb
+C:\Users\laptop\Desktop\Projekt_C#\GUI\bin\Debug\wypozyczalnia.xml
+C:\Users\laptop\Desktop\Projekt_C#\GUI\bin\Debug\wypozyczalnia.exe.config
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\Czwarte.g.cs
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\Drugie.g.cs
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\MainWindow.g.cs
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\Pierwsze.g.cs
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\Piąte.g.cs
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\Trzecie.g.cs
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\App.g.cs
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\GUI_MarkupCompile.cache
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\GUI_MarkupCompile.lref
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\Czwarte.baml
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\Drugie.baml
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\MainWindow.baml
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\Pierwsze.baml
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\Piąte.baml
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\Trzecie.baml
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\GUI.g.resources
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\GUI.exe
+C:\Users\laptop\Desktop\Projekt_C#\GUI\obj\Debug\GUI.pdb

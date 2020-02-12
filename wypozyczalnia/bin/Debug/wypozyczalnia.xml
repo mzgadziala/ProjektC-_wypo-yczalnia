@@ -1,0 +1,510 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>wypozyczalnia</name>
+    </assembly>
+    <members>
+        <member name="T:wypozyczalnia.Dostawcze">
+            <summary>
+            Publiczna klasa działająca na liście samochodów dostawczych, implementuje interfejs ICloneable
+            </summary>
+        </member>
+        <member name="F:wypozyczalnia.Dostawcze.liczbaDostawczych">
+            <summary>Liczba samochodów dostawczych</summary>
+        </member>
+        <member name="F:wypozyczalnia.Dostawcze.wszystkieDostawcze">
+            <summary>Lista wszystkixg samochodów dostawczych</summary>
+        </member>
+        <member name="F:wypozyczalnia.Dostawcze.dostepneDostawcze">
+            <summary>Lista dostepnych samochodów dostawczych</summary>
+        </member>
+        <member name="M:wypozyczalnia.Dostawcze.#ctor">
+            <summary>Initializowanie podczas tworzenia nowego obiektu klasy<see cref="T:wypozyczalnia.Dostawcze"/> class.</summary>
+        </member>
+        <member name="M:wypozyczalnia.Dostawcze.dodajSamochod(wypozyczalnia.SamochodDostawczy)">
+            <summary> Dodawanie obiektu Samochod Dostawczy do listy.</summary>
+            <param name="s"> obiekt Samochód Dostawczy do dodania</param>
+        </member>
+        <member name="M:wypozyczalnia.Dostawcze.jestWInwentarzu(wypozyczalnia.SamochodDostawczy)">
+            <summary>Sprawdzenie czy Samochód Dostawczy jest na liście</summary>
+            <param name="c">  obiekt Samochód Dostawczy</param>
+            <returns>Wybrany Samochd Dostawczy nie jest dostępny</returns>
+        </member>
+        <member name="M:wypozyczalnia.Dostawcze.UsunSamochod(wypozyczalnia.SamochodDostawczy)">
+            <summary>Usunięcie Samochodu Dostawczego z listy, jeśli jest on dostępny.</summary>
+            <param name="p">  Obiekt Samochd Dostawczy do usunięcia</param>
+        </member>
+        <member name="M:wypozyczalnia.Dostawcze.pokazDostepne(wypozyczalnia.ListaWypozyczen,System.String,System.String)">
+            <summary>Generowanie listy dostępnych wypożyczeń w danym czasie</summary>
+            <param name="lista">  Lista Wypożyczen</param>
+            <param name="dataOdbioru">  Data odbioru samochodu</param>
+            <param name="dataZwrotu">  Data zwrotu samochodu</param>
+            <returns>Lista dostępnych Samochodów Dostawczych</returns>
+        </member>
+        <member name="M:wypozyczalnia.Dostawcze.ToString">
+            <summary>Konwersja do Stringa.</summary>
+            <returns>Zwraca opis wszystkich Samochodów Dostawczych z listy <see cref="T:System.String"/> that represents this instance.</returns>
+        </member>
+        <member name="M:wypozyczalnia.Dostawcze.ZapiszXML(System.String,wypozyczalnia.Dostawcze)">
+            <summary>  Zapisywanie do pliku XML obiektu klasy Dostawcze</summary>
+            <param name="nazwa">nazwa pliku.</param>
+            <param name="d">samochod dostawczy</param>
+        </member>
+        <member name="M:wypozyczalnia.Dostawcze.OdczytajXML(System.String)">
+            <summary> Odczytywanie z pliku XML obiektu klasy Dostawcze</summary>
+            <param name="nazwa">nazwa pliku</param>
+            <returns></returns>
+        </member>
+        <member name="M:wypozyczalnia.Dostawcze.Clone">
+            <summary>  Klonowanie obiektu</summary>
+            <returns>  Nowy obiekt będący kopią istniejącego</returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="T:wypozyczalnia.IZapisywalna">
+            <summary>Interfejs zawierający metody publiczne wykorzystywane w klasie Wypożyczenie</summary>
+        </member>
+        <member name="T:wypozyczalnia.Klient">
+            <summary>
+            Klasa publiczna opisująca Klienta, dziedzicząca po klasie Osoba
+            </summary>
+        </member>
+        <member name="P:wypozyczalnia.Klient.NumerTelefonu">
+            <summary>Gets or sets numer telefonu.</summary>
+            <value>  Numer telefonu.</value>
+        </member>
+        <member name="P:wypozyczalnia.Klient.AdresEmail">
+            <summary>Gets or sets adres email.</summary>
+            <value>  Adres email.</value>
+        </member>
+        <member name="P:wypozyczalnia.Klient.NumerKarty">
+            <summary>Gets or sets numer karty.</summary>
+            <value> Numer karty.</value>
+        </member>
+        <member name="P:wypozyczalnia.Klient.WaznoscKarty">
+            <summary>Gets or sets waznosc karty.</summary>
+            <value>  Waznosc karty.</value>
+        </member>
+        <member name="P:wypozyczalnia.Klient.KodZabezpieczajacy">
+            <summary>Gets or sets kod zabazpieczajacy.</summary>
+            <value>  Kod zabazpieczajacy.</value>
+        </member>
+        <member name="M:wypozyczalnia.Klient.#ctor">
+            <summary>  Inicjalizacja przy nowym obiekcie klasy<see cref="T:wypozyczalnia.Klient"/> class.</summary>
+        </member>
+        <member name="M:wypozyczalnia.Klient.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>Inicjalizacja przy nowym obiekcie klasy <see cref="T:wypozyczalnia.Klient"/> class.</summary>
+            <param name="imie">  Imie.</param>
+            <param name="nazwisko">Nazwisko.</param>
+            <param name="numerTelefonu">Numer telefonu.</param>
+            <param name="adresEmail">Adres email.</param>
+            /// <param name="numerKarty">Numer karty.</param>
+            /// <param name="waznoscKarty">Ważność karty.</param>
+            /// <param name="kodZabezpieczajacy">Kod zabezpieczający.</param>
+        </member>
+        <member name="M:wypozyczalnia.Klient.ToString">
+            <summary>Konwersja do Stringa</summary>
+            <returns>Zwraca imię i nazwisko Klienta <see cref="T:System.String"/> that represents this instance.</returns>
+        </member>
+        <member name="T:wypozyczalnia.ListaWypozyczen">
+            <summary>
+            Klasa publiczna generująca listę wypożyczeń
+            </summary>
+        </member>
+        <member name="F:wypozyczalnia.ListaWypozyczen.liczbaWypozyczen">
+            <summary>Liczba wypozyczen</summary>
+        </member>
+        <member name="F:wypozyczalnia.ListaWypozyczen.listaWypozyczen">
+            <summary>Lista wypozyczen</summary>
+        </member>
+        <member name="M:wypozyczalnia.ListaWypozyczen.#ctor">
+            <summary>  Inicjalizacja przy nowym obiekcie klasy <see cref="T:wypozyczalnia.ListaWypozyczen"/> class.</summary>
+        </member>
+        <member name="M:wypozyczalnia.ListaWypozyczen.dodaj(wypozyczalnia.Wypozyczenie)">
+            <summary>Dodawanie do listy nowego obiektu Wypożyczenie</summary>
+            <param name="w">
+              <para>Wypożyczenie</para>
+            </param>
+        </member>
+        <member name="M:wypozyczalnia.ListaWypozyczen.ToString">
+            <summary>Konwersja do Stringa.</summary>
+            <returns>Zwraca opis Samochodów z listy wypożyczonych <see cref="T:System.String"/> that represents this instance.</returns>
+        </member>
+        <member name="M:wypozyczalnia.ListaWypozyczen.ZapiszXML(System.String,wypozyczalnia.ListaWypozyczen)">
+            <summary>  Zapis obiektu klasy Lista Wypozyczen do XML.</summary>
+            <param name="nazwa">nazwa pliku.</param>
+            <param name="l">lista wypozyczen.</param>
+        </member>
+        <member name="M:wypozyczalnia.ListaWypozyczen.OdczytajXML(System.String)">
+            <summary>  Odczytanie obiektu z pliku XML.</summary>
+            <param name="nazwa">nazwa pliku.</param>
+            <returns></returns>
+        </member>
+        <member name="T:wypozyczalnia.Osoba">
+            <summary>Abstrakcyjna klasa opisująca imię i nazwisko Osoby</summary>
+        </member>
+        <member name="P:wypozyczalnia.Osoba.Imie">
+            <summary>Gets or sets imie.</summary>
+            <value>  Imię.</value>
+        </member>
+        <member name="P:wypozyczalnia.Osoba.Nazwisko">
+            <summary>Gets or sets nazwisko.</summary>
+            <value>Nazwisko.</value>
+        </member>
+        <member name="M:wypozyczalnia.Osoba.#ctor">
+            <summary>  Inicjalizacja przy nowym obiekcie klasy<see cref="T:wypozyczalnia.Osoba"/> class.</summary>
+        </member>
+        <member name="M:wypozyczalnia.Osoba.#ctor(System.String,System.String)">
+            <summary>  Inicjalizacja przy nowym obiekcie klasy <see cref="T:wypozyczalnia.Osoba"/> class.</summary>
+            <param name="imie">The imie.</param>
+            <param name="nazwisko">The nazwisko.</param>
+        </member>
+        <member name="M:wypozyczalnia.Osoba.ToString">
+            <summary>  Konwersja do Stringa.</summary>
+            <returns>  Imię i nazwisko Osoby <see cref="T:System.String"/> that represents this instance.</returns>
+        </member>
+        <member name="T:wypozyczalnia.Osobowe">
+            <summary>Publiczna klasa działająca na liście Samochodów Osobowych, implementuje interfejs ICloneable</summary>
+        </member>
+        <member name="F:wypozyczalnia.Osobowe.liczbaOsobowych">
+            <summary>Liczba osobowych</summary>
+        </member>
+        <member name="F:wypozyczalnia.Osobowe.wszystkieOsobowe">
+            <summary>Lista wszystkich Samochodów Osobowych</summary>
+        </member>
+        <member name="M:wypozyczalnia.Osobowe.#ctor">
+            <summary>Inicjalizacja przy nowym obiekcie klasy <see cref="T:wypozyczalnia.Osobowe"/> class.</summary>
+        </member>
+        <member name="M:wypozyczalnia.Osobowe.dodajSamochod(wypozyczalnia.SamochodOsobowy)">
+            <summary>Dodawanie Samochodu Osobowego do listy</summary>
+            <param name="s">obiekt Samochód Osobowy do dodania.</param>
+        </member>
+        <member name="M:wypozyczalnia.Osobowe.jestWInwentarzu(wypozyczalnia.SamochodOsobowy)">
+            <summary>  Sprawdzanie czy obiekt Samochod Osobowy jest na liście</summary>
+            <param name="c">  obiekt Samochd Osobowy</param>
+            <returns>Wybrany Samochd Osobowy nie jest dostępny</returns>
+        </member>
+        <member name="M:wypozyczalnia.Osobowe.UsunSamochod(wypozyczalnia.SamochodOsobowy)">
+            <summary>  Usuwanie Samochodu Osobowego z listy</summary>
+            <param name="p">  Obiekt Samochd Osobowy do usunięcia</param>
+        </member>
+        <member name="M:wypozyczalnia.Osobowe.pokazDostepne(wypozyczalnia.ListaWypozyczen,System.String,System.String)">
+            <summary>Generowanie listy dostępnych wypożyczeń w danym czasie</summary>
+            <param name="lista"> Lista Wypożyczen</param>
+            <param name="dataOdbioru">Data odbioru.</param>
+            <param name="dataZwrotu">Data zwrotu.</param>
+            <returns>Lista dostępnych Samochodów Osobowych</returns>
+        </member>
+        <member name="M:wypozyczalnia.Osobowe.ToString">
+            <summary>Konwersja do Stringa.</summary>
+            <returns>Zwraca opis wszystkich Samochodów Osobowych <see cref="T:System.String"/> that represents this instance.</returns>
+        </member>
+        <member name="M:wypozyczalnia.Osobowe.Clone">
+            <summary>Klonowanie instancji.</summary>
+            <returns></returns>
+        </member>
+        <member name="M:wypozyczalnia.Osobowe.ZapiszXML(System.String,wypozyczalnia.Osobowe)">
+            <summary>Zapis obiektu klasy Osobowe do pliku XML.</summary>
+            <param name="nazwa">nazwa pliku.</param>
+            <param name="o">samochod osobowy</param>
+        </member>
+        <member name="M:wypozyczalnia.Osobowe.OdczytajXML(System.String)">
+            <summary>Odczyt obiekyu z pliku XML.</summary>
+            <param name="nazwa">nazwa pliku.</param>
+            <returns></returns>
+        </member>
+        <member name="T:wypozyczalnia.Silniki">
+            <summary>Generowanie enumeracji Silniki</summary>
+        </member>
+        <member name="F:wypozyczalnia.Silniki.Benzyna">
+            <summary> Silnik - Benzyna</summary>
+        </member>
+        <member name="F:wypozyczalnia.Silniki.Diesel">
+            <summary> Silnik - Diesel</summary>
+        </member>
+        <member name="F:wypozyczalnia.Silniki.Diesel3">
+            <summary>  Silnik - Diesel3</summary>
+        </member>
+        <member name="F:wypozyczalnia.Silniki.BenzynaTSI">
+            <summary> Silnik - Benzyna TSI</summary>
+        </member>
+        <member name="T:wypozyczalnia.Skrzynie">
+            <summary>Generowanie enumeracji Skrzynie</summary>
+        </member>
+        <member name="F:wypozyczalnia.Skrzynie.Manualna">
+            <summary>Skrzynie - Manualna</summary>
+        </member>
+        <member name="F:wypozyczalnia.Skrzynie.Automatyczna">
+            <summary>  Skrzynie - Automatyczna</summary>
+        </member>
+        <member name="T:wypozyczalnia.Pojazd">
+            <summary>Publiczna, abstrakcyjna klasa opisująca Pojazd</summary>
+        </member>
+        <member name="P:wypozyczalnia.Pojazd.Marka">
+            <summary>Gets or sets marka.</summary>
+            <value>Marka.</value>
+        </member>
+        <member name="P:wypozyczalnia.Pojazd.Model">
+            <summary>Gets or sets model.</summary>
+            <value>  Model.</value>
+        </member>
+        <member name="P:wypozyczalnia.Pojazd.Rocznik">
+            <summary>Gets or sets rocznik.</summary>
+            <value>  Rocznik.</value>
+        </member>
+        <member name="P:wypozyczalnia.Pojazd.Silnik">
+            <summary>Gets or sets silnik.</summary>
+            <value>Silnik.</value>
+        </member>
+        <member name="P:wypozyczalnia.Pojazd.Skrzynia">
+            <summary>Gets or sets Skrzynia.</summary>
+            <value>Skrzynia.</value>
+        </member>
+        <member name="P:wypozyczalnia.Pojazd.Spalanie">
+            <summary>Gets or sets spalanie.</summary>
+            <value>Spalanie.</value>
+        </member>
+        <member name="P:wypozyczalnia.Pojazd.Cena">
+            <summary>Gets or sets cena.</summary>
+            <value>  Cena.</value>
+        </member>
+        <member name="M:wypozyczalnia.Pojazd.#ctor">
+            <summary>Inicjalizacja przy nowym obiekcie klasy <see cref="T:wypozyczalnia.Pojazd"/> class.</summary>
+        </member>
+        <member name="M:wypozyczalnia.Pojazd.#ctor(System.String,System.String)">
+            <summary>Inicjalizacja przy nowym obiekcie klasy <see cref="T:wypozyczalnia.Pojazd"/> class.</summary>
+            <param name="marka">Marka.</param>
+            <param name="model">Model.</param>
+        </member>
+        <member name="M:wypozyczalnia.Pojazd.#ctor(System.String,System.String,System.String,wypozyczalnia.Silniki,wypozyczalnia.Skrzynie,System.Double,System.Double)">
+            <summary>Inicjalizacja przy nowym obiekcie klasy <see cref="T:wypozyczalnia.Pojazd"/> class.</summary>
+            <param name="marka">Marka.</param>
+            <param name="model">Model.</param>
+            <param name="rocznik">Rocznik.</param>
+            <param name="silnik">Silnik.</param>
+            <param name="skrzynia">Skrzynia.</param>
+            <param name="spalanie">Spalanie.</param>
+            <param name="cena">Cena.</param>
+        </member>
+        <member name="M:wypozyczalnia.Pojazd.ToString">
+            <summary>  Konwersja do Stringa</summary>
+            <returns> Zwraca opis Samochodu <see cref="T:System.String"/> that represents this instance.</returns>
+        </member>
+        <member name="T:wypozyczalnia.SamochodDostawczy">
+            <summary>publiczna klasa opisująca Samochód dostawczy, dziedziczy po klasie Pojazd</summary>
+            <seealso cref="T:wypozyczalnia.Pojazd" />
+        </member>
+        <member name="P:wypozyczalnia.SamochodDostawczy.Pojemnosc">
+            <summary>Gets or sets pojemnosc.</summary>
+            <value>Pojemnosc.</value>
+        </member>
+        <member name="P:wypozyczalnia.SamochodDostawczy.OplataDodatkowa">
+            <summary>Gets or sets oplata dodatkowa.</summary>
+            <value>Oplata dodatkowa.</value>
+        </member>
+        <member name="P:wypozyczalnia.SamochodDostawczy.KaucjaZwrotna">
+            <summary>Gets or sets kaucja zwrotna.</summary>
+            <value>Kaucja zwrotna.</value>
+        </member>
+        <member name="M:wypozyczalnia.SamochodDostawczy.#ctor">
+            <summary>  Inicjalizacja przy nowym obiekcie klasy <see cref="T:wypozyczalnia.SamochodDostawczy"/> class.</summary>
+        </member>
+        <member name="M:wypozyczalnia.SamochodDostawczy.#ctor(System.String,System.String,System.String,wypozyczalnia.Silniki,wypozyczalnia.Skrzynie,System.Double,System.Double,System.Int32)">
+            <summary>Inicjalizacja przy nowym obiekcie klasy<see cref="T:wypozyczalnia.SamochodDostawczy"/> class.</summary>
+            <param name="marka">Marka.</param>
+            <param name="model">Model.</param>
+            <param name="rocznik">Rocznik.</param>
+            <param name="silnik">Silnik.</param>
+            <param name="skrzynia">Skrzynia.</param>
+            <param name="spalanie">Spalanie.</param>
+            <param name="cena">Cena.</param>
+            <param name="pojemnosc">Pojemnosc.</param>
+        </member>
+        <member name="M:wypozyczalnia.SamochodDostawczy.ToString">
+            <summary>  Konwersja do Stringa</summary>
+            <returns>Zwraca opis Samochodu Dostawczego uzupełniony o pojemność i kaucję zwrotną <see cref="T:System.String"/> that represents this instance.</returns>
+        </member>
+        <member name="T:wypozyczalnia.SamochodOsobowy">
+            <summary>publiczna klasa opisująca samochód osobowy, dziedzy po klasie Pojazd</summary>
+            <seealso cref="T:wypozyczalnia.Pojazd" />
+        </member>
+        <member name="P:wypozyczalnia.SamochodOsobowy.LiczbaOsob">
+            <summary>
+             <para>
+             Gets or sets liczba osob.
+            </para>
+            </summary>
+            <value> Liiczba osob.</value>
+        </member>
+        <member name="P:wypozyczalnia.SamochodOsobowy.KaucjaZwrotna">
+            <summary>Gets or sets kaucja zwrotna.</summary>
+            <value>Kaucja zwrotna.</value>
+        </member>
+        <member name="M:wypozyczalnia.SamochodOsobowy.#ctor">
+            <summary>Inicjalizacja przy nowym obiekcie klasy<see cref="T:wypozyczalnia.SamochodOsobowy"/> class.</summary>
+        </member>
+        <member name="M:wypozyczalnia.SamochodOsobowy.#ctor(System.String,System.String,System.String,wypozyczalnia.Silniki,wypozyczalnia.Skrzynie,System.Double,System.Double,System.Int32)">
+            <summary>Inicjalizacja przy nowym obiekcie klasy<see cref="T:wypozyczalnia.SamochodOsobowy"/> class.</summary>
+            <param name="marka">Marka.</param>
+            <param name="model">Model.</param>
+            <param name="rocznik">Rocznik.</param>
+            <param name="silnik">Silnik.</param>
+            <param name="skrzynia">Skrzynia.</param>
+            <param name="spalanie">Spalanie.</param>
+            <param name="cena">Cena.</param>
+            <param name="liczbaOsob">Liczba osob.</param>
+        </member>
+        <member name="M:wypozyczalnia.SamochodOsobowy.ToString">
+            <summary>Konwersja do Stringa.</summary>
+            <returns>Zwraca opis Samochodu Osobowego uzupełniony o liczbę osób <see cref="T:System.String"/> that represents this instance.</returns>
+        </member>
+        <member name="T:wypozyczalnia.Miasta">
+            <summary>Generowanie enumeracji Miasta</summary>
+        </member>
+        <member name="F:wypozyczalnia.Miasta.Warszawa">
+            <summary> Miasto - Warszawa</summary>
+        </member>
+        <member name="F:wypozyczalnia.Miasta.Kraków">
+            <summary>Miasto - Kraków</summary>
+        </member>
+        <member name="F:wypozyczalnia.Miasta.Wrocław">
+            <summary> Miasto - Wrocław</summary>
+        </member>
+        <member name="F:wypozyczalnia.Miasta.Łódź">
+            <summary>  Miasto - Lodź</summary>
+        </member>
+        <member name="F:wypozyczalnia.Miasta.Poznań">
+            <summary>Miasto - Poznań</summary>
+        </member>
+        <member name="F:wypozyczalnia.Miasta.Gdańsk">
+            <summary>Miasto - Gdańsk</summary>
+        </member>
+        <member name="F:wypozyczalnia.Miasta.Szczecin">
+            <summary>Miasto - Szczecin</summary>
+        </member>
+        <member name="F:wypozyczalnia.Miasta.Bydgoszcz">
+            <summary> Miasto - Bydgoszcz</summary>
+        </member>
+        <member name="F:wypozyczalnia.Miasta.Lublin">
+            <summary> Miasto - Lublin</summary>
+        </member>
+        <member name="F:wypozyczalnia.Miasta.Katowice">
+            <summary>Miasto - Katowice</summary>
+        </member>
+        <member name="F:wypozyczalnia.Miasta.Rzeszów">
+            <summary> Miasto - Rzeszów</summary>
+        </member>
+        <member name="F:wypozyczalnia.Miasta.Toruń">
+            <summary>Miasto - Toruń</summary>
+        </member>
+        <member name="T:wypozyczalnia.Wypozyczenie">
+            <summary>Publiczna klasa opisująca Wypożyczenie</summary>
+            <seealso cref="T:wypozyczalnia.IZapisywalna" />
+        </member>
+        <member name="P:wypozyczalnia.Wypozyczenie.MiejsceOdbioru">
+            <summary>Gets or sets miejsce odbioru.</summary>
+            <value>Miejsce odbioru.</value>
+        </member>
+        <member name="P:wypozyczalnia.Wypozyczenie.MiejsceZwrotu">
+            <summary>Gets or sets miejsce zwrotu.</summary>
+            <value>Miejsce zwrotu.</value>
+        </member>
+        <member name="P:wypozyczalnia.Wypozyczenie.DataOdbioru">
+            <summary>Gets or sets data odbioru.</summary>
+            <value>Data odbioru.</value>
+        </member>
+        <member name="P:wypozyczalnia.Wypozyczenie.DataZwrotu">
+            <summary>Gets or sets data zwrotu.</summary>
+            <value>Data zwrotu.</value>
+        </member>
+        <member name="P:wypozyczalnia.Wypozyczenie.K">
+            <summary>Gets or sets  klient.</summary>
+            <value>  Klient</value>
+        </member>
+        <member name="P:wypozyczalnia.Wypozyczenie.So">
+            <summary>Gets or sets samochod osobowy.</summary>
+            <value>  samochod osobowy</value>
+        </member>
+        <member name="P:wypozyczalnia.Wypozyczenie.Sd">
+            <summary>Gets or sets samochod dostawczy.</summary>
+            <value>
+              <para>samochod dostawczy.
+            </para>
+            </value>
+        </member>
+        <member name="P:wypozyczalnia.Wypozyczenie.Cena">
+            <summary>Gets or sets cena.</summary>
+            <value>Cena.</value>
+        </member>
+        <member name="P:wypozyczalnia.Wypozyczenie.P">
+            <summary>Gets or sets pojazd.</summary>
+            <value>Pojazd</value>
+        </member>
+        <member name="F:wypozyczalnia.Wypozyczenie.gps">
+            <summary> GPS </summary>
+        </member>
+        <member name="F:wypozyczalnia.Wypozyczenie.lancuchy">
+            <summary>Lancuchy </summary>
+        </member>
+        <member name="F:wypozyczalnia.Wypozyczenie.fotelik">
+            <summary>Fotelik</summary>
+        </member>
+        <member name="F:wypozyczalnia.Wypozyczenie.wyjazdZaGranice">
+            <summary>Wyjazd za granice</summary>
+        </member>
+        <member name="M:wypozyczalnia.Wypozyczenie.#cctor">
+            <summary>
+              <para>
+             Konstruktor statyczny<see cref="T:wypozyczalnia.Wypozyczenie"/> class.
+            </para>
+            </summary>
+        </member>
+        <member name="M:wypozyczalnia.Wypozyczenie.#ctor">
+            <summary>  Inicjalizacja przy nowym obiekcie klasy <see cref="T:wypozyczalnia.Wypozyczenie"/> class.</summary>
+        </member>
+        <member name="M:wypozyczalnia.Wypozyczenie.#ctor(wypozyczalnia.Miasta,wypozyczalnia.Miasta,System.String,System.String,wypozyczalnia.Klient,wypozyczalnia.SamochodOsobowy)">
+            <summary>Inicjalizacja przy nowym obiekcie klasy, gdy wypozyczamy samochód osobowy <see cref="T:wypozyczalnia.Wypozyczenie"/> class.</summary>
+            <param name="miejsceOdbioru">Miejsce odbioru.</param>
+            <param name="miejsceZwrotu">Miejsce zwrotu.</param>
+            <param name="dataOdbioru">Data odbioru.</param>
+            <param name="dataZwrotu">Data zwrotu.</param>
+            <param name="k">  Klient</param>
+            <param name="so"> samochod osobowy</param>
+        </member>
+        <member name="M:wypozyczalnia.Wypozyczenie.#ctor(wypozyczalnia.Miasta,wypozyczalnia.Miasta,System.String,System.String,wypozyczalnia.Klient,wypozyczalnia.SamochodDostawczy)">
+            <summary>Inicjalizacja przy nowym obiekcie klasy, gdy wypozyczamy samochód dostawczy <see cref="T:wypozyczalnia.Wypozyczenie"/> class.</summary>
+            <param name="miejsceOdbioru">  Miejsce odbioru.</param>
+            <param name="miejsceZwrotu">Miejsce zwrotu.</param>
+            <param name="dataOdbioru">  Data odbioru.</param>
+            <param name="dataZwrotu">Data zwrotu.</param>
+            <param name="k">  Klient</param>
+            <param name="sd">samochod dostawczy</param>
+        </member>
+        <member name="M:wypozyczalnia.Wypozyczenie.#ctor(wypozyczalnia.Miasta,wypozyczalnia.Miasta,System.String,System.String,wypozyczalnia.Klient,wypozyczalnia.Pojazd)">
+            <summary>Inicjalizacja przy nowym obiekcie klasy<see cref="T:wypozyczalnia.Wypozyczenie"/> class.</summary>
+            <param name="miejsceOdbioru">Miejsce odbioru.</param>
+            <param name="miejsceZwrotu">Miejsce zwrotu.</param>
+            <param name="dataOdbioru">Data odbioru.</param>
+            <param name="dataZwrotu">Data zwrotu.</param>
+            <param name="k">klient.</param>
+            <param name="p">pojazd.</param>
+        </member>
+        <member name="M:wypozyczalnia.Wypozyczenie.kosztWypozyczenia">
+            <summary> Obliczanie kosztu wypozyczenia.</summary>
+            <returns>Cena za wypozyczenie</returns>
+        </member>
+        <member name="M:wypozyczalnia.Wypozyczenie.ToString">
+            <summary>Konowersja do Stringa</summary>
+            <returns>Zwraca opis wypożyczenia <see cref="T:System.String"/> that represents this instance.</returns>
+        </member>
+        <member name="M:wypozyczalnia.Wypozyczenie.ZapiszXML(System.String,wypozyczalnia.Wypozyczenie)">
+            <summary>Zapisywanie do XML obiektu klasy Wypozyczenie.</summary>
+            <param name="nazwa">Nazwa pliku.</param>
+            <param name="w">Obiekt Wypozyczenie.</param>
+        </member>
+        <member name="M:wypozyczalnia.Wypozyczenie.OdczytajXML(System.String)">
+            <summary>Odczytywanie z XML obiektu klasy Wypozyczenie.</summary>
+            <param name="nazwa">Nazwa pliku.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

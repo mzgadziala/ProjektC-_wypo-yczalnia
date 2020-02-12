@@ -1,0 +1,230 @@
+﻿<Page x:Class="GUI.Trzecie"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GUI"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Trzecie">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="95"/>
+            <ColumnDefinition Width="95"/>
+            <ColumnDefinition Width="95"/>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="95"/>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <!--<Grid.Background>
+            <ImageBrush ImageSource="C:\Users\kubci\Desktop\Jakub Burnos\1.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>-->
+        <TextBlock
+                Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="5"
+                FontWeight="SemiBold" FontFamily="Segoe UI" FontSize="20"
+                HorizontalAlignment="Left"
+                Text="Wybrane auto i podsumowanie kosztów" 
+                Margin="0,0,0,10">
+
+        </TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="2" FontSize="15" 
+               Text="Marka" Grid.ColumnSpan="2" 
+                   Margin="20,12,1,15"/>
+        <TextBlock Grid.Column="2" Grid.Row="1" FontSize="15" 
+               Text="Model" Grid.ColumnSpan="2" 
+                   Margin="0,48.333,0.667,14.667" Grid.RowSpan="2"/>
+        <TextBlock Grid.Column="2" Grid.Row="1" FontSize="15" 
+               Text="Rocznik" Grid.ColumnSpan="3"
+                   Margin="80,48.333,1.333,14.667" Grid.RowSpan="2"/>
+        <TextBlock Grid.Column="3" Grid.Row="1" FontSize="15" 
+               Text="Silnik" Grid.ColumnSpan="3"
+                   Margin="66.667,48.333,1,14.667" Grid.RowSpan="2"/>
+        <TextBlock Grid.Column="4" Grid.Row="1" FontSize="15" 
+               Text="Skrzynia" Grid.ColumnSpan="4"
+                   Margin="59.333,48.333,1,14.667" Grid.RowSpan="2"/>
+        <TextBlock Grid.Column="6" Grid.Row="1" FontSize="15" 
+               Text="Spalanie" Grid.ColumnSpan="2"
+                   Margin="0,48.333,1,14.667" Grid.RowSpan="2"/>
+        <TextBlock Grid.Column="7" Grid.Row="2" FontSize="15" 
+               Text="Cena"
+                   Margin="7,12,1,15"/>
+        <TextBlock Grid.Column="8" Grid.Row="2" FontSize="15" 
+               Text="Kaucja"
+                   Margin="20,12,1,15"/>
+        <TextBlock Grid.Column="9" Grid.Row="2" FontSize="15" 
+               Text="Os/Poj"
+                   Margin="15,12,1,15"/>
+        <ListBox x:Name="listBox_konkretneauto" Grid.Row="3"
+                 Grid.ColumnSpan="9"
+                 HorizontalAlignment="Center" Height="40" 
+                 VerticalAlignment="Top" Width="742" 
+                 Margin="7,0,10,0" Grid.Column="1"
+                 ItemsSource="{Binding Names}"/>
+        <TextBlock
+                Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="2"
+                FontWeight="SemiBold"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                Text="Cena za dzień:" FontSize="15" 
+                Margin="0,0,0,-5">
+        </TextBlock>
+        <TextBlock
+                Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="2"
+                FontWeight="SemiBold"
+                HorizontalAlignment="Right"
+                Text="Kaucja zwrotna:" FontSize="15"
+                Margin="0,0,0,10"
+            VerticalAlignment="Center">
+        </TextBlock>
+        <TextBlock
+                Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2"
+                FontWeight="SemiBold"
+                HorizontalAlignment="Right"
+                Text="Opłata przygotowawcza:" FontSize="15"
+                Margin="0,0,0,10"
+            VerticalAlignment="Center">
+        </TextBlock>
+        <TextBlock
+                Grid.Column="6" Grid.Row="4" Grid.ColumnSpan="2"
+                FontWeight="SemiBold"
+                HorizontalAlignment="Center"
+                Text="Opłaty na żądanie" FontSize="15"
+                Margin="0,0,0,10">
+        </TextBlock>
+        <CheckBox
+            x:Name="CheckBox_gps"
+            Content="Nawigacja GPS"
+            Grid.Row="5" Grid.Column="6" Grid.ColumnSpan="2"
+            HorizontalAlignment="Left"
+            Margin="0,0,0,0"
+            VerticalAlignment="Center"
+            >
+        </CheckBox>
+        <CheckBox
+            x:Name="CheckBox_lancuch"
+            Content="Łańcuchy na koła"
+            Grid.Row="6" Grid.Column="6" Grid.ColumnSpan="2"
+            HorizontalAlignment="Left"
+            Margin="0,0,0,10"
+            VerticalAlignment="Center"
+            >
+        </CheckBox>
+        <CheckBox
+            x:Name="CheckBox_fotelik"
+            Content="Fotelik 15-36 kg"
+            Grid.Row="7" Grid.Column="6" Grid.ColumnSpan="2"
+            HorizontalAlignment="Left"
+            Margin="0,0,0,10"
+            VerticalAlignment="Center"
+            >
+        </CheckBox>
+        <CheckBox
+            x:Name="CheckBox_wyjazd"
+            Content="Wyjazd za granicę UE"
+            Grid.Row="8" Grid.Column="6" Grid.ColumnSpan="2"
+            HorizontalAlignment="Left"
+            Margin="0,0,0,10"
+            VerticalAlignment="Center"
+            >
+        </CheckBox>
+        <Label
+            Grid.Column="8" Grid.Row="5"
+            Content="20 zł"
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Left">
+        </Label>
+        <Label
+            Grid.Column="8" Grid.Row="6"
+            Content="25 zł"
+            VerticalContentAlignment="Top"
+            HorizontalContentAlignment="Left">
+        </Label>
+        <Label
+            Grid.Column="8" Grid.Row="7"
+            Content="20 zł"
+            VerticalContentAlignment="Top"
+            HorizontalContentAlignment="Left">
+        </Label>
+        <Label
+            Grid.Column="8" Grid.Row="8"
+            Content="200 zł"
+            HorizontalContentAlignment="Left">
+        </Label>
+        <Label
+            x:Name="Label_wynajem"
+            Grid.Column="3" Grid.Row="4"
+            Loaded="Label_wynajem_Loaded"
+            FontSize="17" FontWeight="SemiBold"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Margin="20,0,0,0">
+        </Label>
+        <Label
+            x:Name="Label_kaucja"
+            Grid.Column="3" Grid.Row="5"
+            Loaded="Label_kaucja_Loaded"
+            FontSize="17" FontWeight="SemiBold"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Margin="20,0,0,0">
+        </Label>
+        <Label
+            x:Name="Label_oplata"
+            Grid.Column="3" Grid.Row="6"
+            Loaded="Label_oplata_Loaded"
+            FontSize="17" FontWeight="SemiBold"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Margin="20,0,0,0">
+        </Label>
+        <Label
+            x:Name="Label_suma"
+            Grid.Column="3" Grid.Row="8"
+            Loaded="Label_suma_Loaded"
+            FontSize="17" FontWeight="SemiBold"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Margin="20,0,0,0"
+            >
+        </Label>
+        <TextBlock
+                Grid.Column="1" Grid.Row="8" Grid.ColumnSpan="2"
+                FontWeight="SemiBold"
+                HorizontalAlignment="Right"
+                Text="Suma" 
+                FontSize="25" FontFamily="Segoe UI"
+                Margin="0,0,0,10">
+        </TextBlock>
+        <Button x:Name="Button_dalej" Content="Dalej" 
+                FontWeight="SemiBold" FontFamily="Segoe UI"
+                FontSize="20"
+                Grid.Column="7" Grid.Row="9" 
+                Height="35" VerticalAlignment="Top" 
+                Click="Button_dalej_Click" Margin="0,0,0,-9" Grid.ColumnSpan="2" Grid.RowSpan="2"
+               />
+        <Image Grid.Row="1" Grid.Column="1" Grid.RowSpan="6" 
+               Width="100" Height="200"
+               Source="C:\Users\Adriana\Downloads\IMG_6941a.jpg" 
+               Margin="45,10,89,-119"/>
+
+    </Grid>
+</Page>

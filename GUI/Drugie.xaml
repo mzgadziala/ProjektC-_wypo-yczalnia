@@ -1,0 +1,95 @@
+﻿<Page x:Class="GUI.Drugie"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GUI"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Drugie">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="95"/>
+            <ColumnDefinition Width="95"/>
+            <ColumnDefinition Width="95"/>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="95"/>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <!--<Grid.Background>
+            <ImageBrush ImageSource="C:\Users\kubci\Desktop\Jakub Burnos\1.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>-->
+        <TextBlock Grid.Column="1" Grid.Row="1"
+                   FontWeight="SemiBold" FontFamily="Segoe UI" FontSize="25"
+                   Text="Dostępne pojazdy:  " Grid.ColumnSpan="3"
+                   VerticalAlignment="Center" HorizontalAlignment="Center"
+                   Margin="0,0,0,15"/>
+        <Label x:Name="Label_liczba"
+            Grid.Column="2" Grid.Row="1" Loaded="Label_liczba_Loaded"
+            FontWeight="SemiBold" FontFamily="Segoe UI" FontSize="25"
+            VerticalContentAlignment="Center" HorizontalContentAlignment="Right"
+            Margin="100,0,16,15" Grid.ColumnSpan="2"
+            />
+        <TextBlock Grid.Column="1" Grid.Row="2" FontSize="15" 
+               Text="Marka" Grid.ColumnSpan="2" 
+                   Margin="20,0,1,15"/>
+        <TextBlock Grid.Column="2" Grid.Row="1" FontSize="15" 
+               Text="Model" Grid.ColumnSpan="2" 
+                   Margin="0,48.333,0.667,14.667" Grid.RowSpan="2"/>
+        <TextBlock Grid.Column="2" Grid.Row="1" FontSize="15" 
+               Text="Rocznik" Grid.ColumnSpan="3"
+                   Margin="80,48.333,1.333,14.667" Grid.RowSpan="2"/>
+        <TextBlock Grid.Column="3" Grid.Row="1" FontSize="15" 
+               Text="Silnik" Grid.ColumnSpan="3"
+                   Margin="66.667,48.333,1,14.667" Grid.RowSpan="2"/>
+        <TextBlock Grid.Column="4" Grid.Row="1" FontSize="15" 
+               Text="Skrzynia" Grid.ColumnSpan="4"
+                   Margin="59.333,48.333,1,14.667" Grid.RowSpan="2"/>
+        <TextBlock Grid.Column="6" Grid.Row="1" FontSize="15" 
+               Text="Spalanie" Grid.ColumnSpan="2"
+                   Margin="0,48.333,1,14.667" Grid.RowSpan="2"/>
+        <TextBlock Grid.Column="7" Grid.Row="2" FontSize="15" 
+               Text="Cena"
+                   Margin="7,0,1,15"/>
+        <TextBlock Grid.Column="8" Grid.Row="2" FontSize="15" 
+               Text="Kaucja"
+                   Margin="20,0,1,15"/>
+        <TextBlock Grid.Column="9" Grid.Row="2" FontSize="15" 
+               Text="Os/Poj"
+                   Margin="15,0,1,15"/>
+        <ListBox x:Name="listBox_auta" Grid.Row="3"
+                 Grid.ColumnSpan="9"
+                 HorizontalAlignment="Center" Height="201" 
+                 VerticalAlignment="Top" Width="758" 
+                 Margin="0,0,1,0" Grid.Column="1"  ItemsSource="{Binding Names}"/>
+        <TextBlock
+                Grid.Column="1" Grid.Row="4" FontSize="15" 
+                Text="Aby wybrać konkretne auto zaznacz je" Grid.ColumnSpan="3"
+                Margin="16,15,0,0">
+        </TextBlock>
+        <Button x:Name="Button_dalej" Content="Przejdź dalej" 
+                FontWeight="SemiBold" FontFamily="Segoe UI" FontSize="20" 
+                Grid.Column="7" Grid.Row="4" Grid.ColumnSpan="3" 
+                Height="30" VerticalAlignment="Center" 
+                Click="Button_dalej_Click" Margin="70,6,1,0"
+               />
+
+
+
+    </Grid>
+</Page>

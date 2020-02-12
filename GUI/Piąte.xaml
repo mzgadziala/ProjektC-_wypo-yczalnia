@@ -1,0 +1,49 @@
+﻿<Page x:Class="GUI.Piąte"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GUI"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Piąte">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <!--<Grid.Background>
+            <ImageBrush ImageSource="C:\Users\kubci\Desktop\Jakub Burnos\1.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>-->
+        <TextBlock Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="1"
+                   FontWeight="SemiBold" FontFamily="Segoe UI" FontSize="25"
+                   Text="Dziękujemy za dokonanie rezerwacji w naszej wypożyczalni!"
+                
+                   Margin="42,77,126,41"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center" Width="698"/>
+        <Button x:Name="Button_zakoncz" Content="Zakończ" 
+                FontWeight="SemiBold" FontFamily="Segoe UI" FontSize="20"
+                Grid.Column="1" Grid.Row="2"
+                Height="54" Width="130" VerticalAlignment="Center" HorizontalAlignment="Center" 
+                Click="Button_zakoncz_Click" Margin="200,0,298,0" Grid.ColumnSpan="1" Grid.RowSpan="1"
+               />
+        <Button x:Name="Button_zlozkolejne" Content="Złóż kolejne zamówienie" 
+                FontWeight="SemiBold" FontFamily="Segoe UI" FontSize="20"
+                Grid.Column="1" Grid.Row="3"
+                Height="54" Width="250" VerticalAlignment="Top" 
+                Click="Button_zlozkolejne_Click" Margin="258,17,358,0" Grid.ColumnSpan="1"
+               />
+
+    </Grid>
+</Page>
